@@ -1,5 +1,7 @@
+@import url('cabinet-grotesk.css');
+@import url('satoshi.css');
+
 body {
-    font-family: sans-serif;
     margin: 0;
     padding: 20px;
     background: #f2f2f2;
@@ -7,19 +9,20 @@ body {
 
 h1 {
     text-align: center;
-    font-family: CabinetGrotesk-Extrabold sans-serif;
+    font-family: 'CabinetGrotesk-Extrabold', sans-serif;
+    font-weight: 800;
     font-size: 3vw; /* viewport width*/
 }
 
 p {
-    font-family: Satoshi-Medium sans-serif;
+    font-family: 'Satoshi-Medium', sans-serif;
     font-size: 2vw;
 }
 
 .swiper {
     width: 90%;
     max-width: 600px;
-    height: 2vh;
+    height: 20vh;
     margin: 40px auto;
     border-radius: 10px;
     overflow: hidden;
@@ -35,5 +38,11 @@ img {
     width: 100%;
     height: auto;
     object-fit: cover; /* für Slideshows */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
